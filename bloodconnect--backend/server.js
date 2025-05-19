@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
-mongoose.connect('mongodb://localhost:27017/userdata', {
+mongoose.connect('mongodb+srv://bezzavarapupaulbabu:bloodconnect@cluster0.p9t2nz1.mongodb.net/userdata', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
